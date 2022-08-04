@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/ptsans-700.woff2)format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/ptsans-400.woff2)format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: black;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.navigation-link-1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.page-container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #756157;
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  height: 37px;
+  border:none;
+  color: white;
+}
+
+.sedona-about {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  color: black;
+  width: 620px;
+  padding: 63px 290px 31px ;
+}
+
+.main-picture {
+  display: block;
+}
+
+.sedona-reason {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+  padding-bottom: 90px;
+}
+
+.reason-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.reason-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin: 0;
+  width: 230px;
+  color: #FFFFFF;
+  padding: 0 85px 30px;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 30px 85px 30px;
+  color: #FFFFFF;
+}
+
+.title-container {
+  padding-top: 92px;
+}
+
+.picture {
+  display: block;
+  padding: 80px 162px 0 162px;
+}
+
+.reason-item {
+  background-color: #82B3D3;
+  width: 400px;
+  height: 384px;
+}
+
+.reason-1 {
+  display: flex;
+}
+
+.reason-center {
+  display: flex;
+}
+
+.color-2 {
+  background-color:#83B3D31F;
+}
+
+.text-color-2 {
+  color:black
+}
+
+.text-color-3 {
+  color:#333333;
+}
+
+.color-3 {
+  background-color:#FFFFFF;
+}
+
+.color-4 {
+  background-color:#83B3D333;
+}
+
+.text-color-4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscription-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82B3D3;
+}
+
+.contact-description {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.navigation-list-1 {
+  margin:0;
+  padding:0;
+  padding-left: 30px;
+  padding-right: 282px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.navigation-list-2 {
+  margin:0;
+  padding:0;
+  width: 84px;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.navigation-link-1 {
+  padding: 20px 17px;
+  display: block;
+}
+
+.navigation-link-2 {
+  padding: 24px 12px;
+  display: block;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 264px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
