@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <title>Каталог Седона</title>
+</head>
+<body>
+  <header>
+    <h1 class="visually-hidden">Седона</h1>
+    <nav class="main-navigation">
+      <a href="index.html">
+        <img class="logo-sedona" width="139" height="70" src="images/header/logo-sedona.svg" alt="Лого Седоны">
+      </a>
+      <ul class="navigation-list-1">
+        <li class="navigation-item">
+          <a class="navigation-link-1" href="#">Главная</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link-1" href="#">О Седоне</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link-1" href="#">Гостиница</a>
+        </li>
+      </ul>
+      <div class="nav-container">
+      <ul class="navigation-list-2">
+        <li class="navigation-item">
+          <a class='navigation-link-2' href="#">
+            <img class="icons" src="images/header/search.svg" width="18" height="18" alt="Поиск">
+          </a>
+        </li>
+        <li class="navigation-item">
+          <a class='navigation-link-2' href="#">
+            <img class="icons" src="images/header/like.svg" width="18" height="17" alt="Избранное">
+          </a>
+        </li>
+      </ul>
+    <button class="button" type="button">Хочу сюда!</button>
+     </div>
+    </nav>
+  </header>
+  <main class="main-page main-container">
+    <div class="bg-ex">
+    <h1 class="">Гостиницы Седоны</h1>
+    <header class="inner-header">
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link" href="index.html">
+            <img class="icons" src="images/main/home.svg" width="12" height="12">
+          </a>
+        </li>
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link">Гостиницы</a>
+        </li>
+      </ul>
+    </header>
+    <fieldset class="catalog-filter-group">
+      <legend class="catalog-filter-title">Инфраструктура</legend>
+      <ul class="infrastructure-list">
+        <li class="infrastructure-item">
+          <label class="control">
+            <input class="control-input" type="checkbox" name="pool" checked>
+            Бассейн
+          </label>
+        </li>
+        <li class="infrastructure-item">
+          <label class="control">
+            <input class="control-input" type="checkbox" name="parking" checked>
+            Парковка
+          </label>
+        </li>
+        <li class="infrastructure-item">
+          <label class="control">
+            <input class="control-input" type="checkbox" name="wi-fi">
+            Wi-Fi
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="catalog-filter-group">
+    <legend class="catalog-filter-title">Тип жилья</legend>
+    <ul class="infrastructure-list">
+      <li class="infrastructure-item">
+        <label class="control">
+          <input class="control-input" type="radio" name="pool" checked>
+          Гостиница
+        </label>
+      </li>
+      <li class="infrastructure-item">
+        <label class="control">
+          <input class="control-input" type="radio" name="pool">
+          Мотель
+        </label>
+      </li>
+      <li class="infrastructure-item">
+        <label class="control">
+          <input class="control-input" type="radio" name="pool">
+          Аппартаменты
+        </label>
+      </li>
+      </ul>
+  </fieldset>
+    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+      <button class="button" type="submit">Применить</button>
+    </form>
+  </div>
+  </main>
+  <footer class="page-footer footer-container">
+    <div class="background-main-end">
+    <!-- <img class="footer-image" src="images/footer/footer-picture.jpg" width="1200" height="411" alt="Задний фон футера"> -->
+    <h2 class="sedona-about" id="container-subs">Подпишитесь на рассылку</h2>
+    <h3 class="sedona-reason" id="boys-container">Только полезная информация и никакого спама,<br>
+      честное бойскаутское!</h3>
+    <form class="subscription-form" action="#" method="post">
+      <input type="email" id="subscrition-form" name="subscrition-form" placeholder="    Ваш e-mail">
+      <button class="button subscription-button" type="submit">Подписаться</button>
+    </form>
+  </div>
+  <section class="container-media">
+    <ul class="social-list">
+      <li class="social-item">
+        <a class="social-link" href="#">
+          <img class="logo-social" src="images/footer/vk.svg" width="24" height="14" alt="Вконтакте">
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="social-link" href="#">
+          <img class="logo-social" src="images/footer/telegram.svg" width="18" height="15" alt="Телеграмм">
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="social-link" href="#">
+          <img class="logo-social" src="images/footer/youtube.svg" width="22" height="17" alt="Ютуб">
+        </a>
+      </li>
+    </ul>
+    <adress class="contact-number">
+      <a class="contact-description" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    </adress>
+    <a class="html-link" href="#">
+      <img class="logo-html " src="images/footer/HTML Academy.svg" width="115" height="33" alt="Html-academy">
+    </a>
+  </section>
+  </footer>
+
+</body>
+</html>
