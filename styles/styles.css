@@ -42,7 +42,15 @@ body {
   color: inherit;
   text-align: center;
   text-decoration: none;
+}
 
+.navigation-item:hover {
+  box-shadow: inset 0 -2px 0 0 #756257;
+
+}
+
+.navigation-item-1:hover {
+  box-shadow: 2px 0 0 0 #000000;
 }
 
 .page-container {
@@ -63,6 +71,12 @@ body {
   border:none;
   color: white;
   border-radius: 4px;
+  cursor: pointer;
+  display:inline-block;
+}
+
+.button:hover {
+  background-color:#82B3D3;
 }
 #container-subs {
   padding: 0 398px 29px 398px;
@@ -141,6 +155,11 @@ body {
   margin-bottom:93px;
   background: #756157;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-search:hover {
+  background-color:#82B3D3;
 }
 
 .about-title {
