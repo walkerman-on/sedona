@@ -42,7 +42,15 @@ body {
   color: inherit;
   text-align: center;
   text-decoration: none;
+}
 
+.navigation-item:hover {
+  box-shadow: inset 0 -2px 0 0 #756257;
+
+}
+
+.navigation-item-1:hover {
+  box-shadow: 2px 0 0 0 #000000;
 }
 
 .page-container {
@@ -62,6 +70,16 @@ body {
   height: 37px;
   border:none;
   color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  display:inline-block;
+}
+
+.button:hover {
+  background-color:#82B3D3;
+}
+#container-subs {
+  padding: 0 398px 29px 398px;
 }
 
 .sedona-about {
@@ -72,7 +90,6 @@ body {
   margin: 0;
   text-transform: uppercase;
   color: black;
-  width: 620px;
   padding: 63px 290px 31px ;
 }
 
@@ -94,8 +111,20 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-bottom: 91px;
 
 }
+
+.question-container {
+  margin: 0;
+  padding: 0 451px 29px 452px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
 
 .reason-title {
   font-weight: 400;
@@ -106,6 +135,31 @@ body {
   width: 230px;
   color: #FFFFFF;
   padding: 0 85px 30px;
+}
+
+#container-date {
+  text-align: center;
+  padding-bottom: 56px;
+  width: 592px;
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items:center
+}
+
+.button-search {
+  width: 574px;
+  border: 0;
+  padding: 8px 11px;
+  margin-bottom:93px;
+  background: #756157;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-search:hover {
+  background-color:#82B3D3;
 }
 
 .about-title {
@@ -166,6 +220,8 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  text-transform: uppercase;
+  color: white;
 }
 
 .subscription-button {
@@ -173,6 +229,11 @@ body {
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
+  width: 200px;
+  height: 60px;
+  border-radius: 0 10px 10px 0;
+  border:0;
+  padding: 12px 15px;
 }
 
 .contact-description {
@@ -236,3 +297,70 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.footer-container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.background-main-end {
+  padding-top: 94px;
+  /* background-image: url('/styles/footer-picture.jpg'); */
+  background-color:#83B3D31F;
+
+}
+
+#boys-container {
+  padding: 0;
+}
+
+
+.subscription-form {
+  margin: 0 auto;
+  width: 600px;
+  padding: 46px 200px 94px 200px;
+  display: flex;
+}
+
+input[type="email"] {
+  padding: 0;
+  height: 60px;
+  width: 600px;
+  background: #F2F2F2;
+  border-radius: 10px 0 0 10px;
+  border:0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color:#000000;
+  }
+
+  .social-list {
+    margin: 0;
+    padding: 57px 222px 48px 82px;
+    list-style-type: none;
+    display: flex;
+    width: 142px;
+  }
+
+  .social-link {
+    padding-right: 26px;
+  }
+
+  .contact-number {
+    padding: 45px 236px 35px 0;
+
+  }
+
+  .container-media {
+    display: flex;
+  }
+
+  .logo-html {
+    padding: 49px 70px 38px 0;
+  }
+
+
+  .bg-ex {
+    background-color:tomato;
+  }
